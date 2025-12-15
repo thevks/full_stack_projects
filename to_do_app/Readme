@@ -1,0 +1,12 @@
+Project Structure Overview
+todo-app/
+├── .env                  # Backend environment variables (MongoDB URI)
+├── package.json          # Backend dependencies (express, mongoose, dotenv, cors)
+├── server.js             # Backend server (Express & Mongoose logic)
+└── frontend/             # React application created with npx create-react-app
+    └── src/
+        ├── App.js        # Main component for fetching data and managing state
+        ├── AddTodo.js    # Component to add new tasks
+        ├── TodoList.js   # Component to list, toggle, and manage tasks
+        └── EditTodo.js   # Component for editing a task's text
+        └── ...           # (Other standard React files like index.js, App.css, etc.)
